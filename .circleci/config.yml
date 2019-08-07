@@ -22,7 +22,7 @@ jobs:
       - store_test_results:
           path: /code/test-results
 
-workflow:
+workflows:
   version: 2
   do_stuff:
     jobs:
