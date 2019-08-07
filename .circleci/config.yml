@@ -26,7 +26,6 @@ workflows:
   version: 2
   do_stuff:
     jobs:
-      - a
       - b:
         requires:
           -a
